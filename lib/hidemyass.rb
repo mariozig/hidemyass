@@ -13,7 +13,7 @@ module HideMyAss
   extend Request::Actions
 
   SITE     = "http://hidemyass.com".freeze
-  ENDPOINT = "http://hidemyass.com/proxy-list/".freeze
+  ENDPOINT = "http://proxylist.hidemyass.com/".freeze
 
   LOG_PREFIX = "** [hidemyass]"
 
