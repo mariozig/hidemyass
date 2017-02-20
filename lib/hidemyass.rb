@@ -87,10 +87,10 @@ module HideMyAss
   # Returns form data hash.
   def form_data
     @form_data ||= {
-      "c"  => ["Brazil", "Mexico", "United States"],
+      "c"  => ["China", "Venezuela", "Brazil", "United States", "Thailand", "Ukraine", "Indonesia", "Nepal", "Russian Federation", "Argentina", "Czech Republic", "Korea, Republic of", "Colombia", "France", "Bangladesh", "Ghana", "Peru", "Slovakia", "Taiwan", "Hong Kong", "Taiwan", "Bulgaria", "Canada", "Netherlands", "Bolivia", "Serbia", "Azerbaijan", "Costa Rica", "Viet Nam", "Germany", "South Africa", "Iraq", "Italy", "Egypt", "Poland", "Chile", "Paraguay", "Australia", "Hungary", "Cambodia", "Europe"],
       "p"  => nil,
       "pr" => [0],
-      "a"  => [0,1,2,3],
+      "a"  => [2,3,4],
       "sp" => [2,3],
       "ct" => [2,3],
       "s"  => 0,
