@@ -59,7 +59,7 @@ module HideMyAss
         ip = HideMyAss::IP.new(node.at_xpath('td[2]/span'))
         next unless ip.valid?
         {
-          host: ip.address,
+          host: ip.address.strip,
           port: node.at_xpath('td[3]').content.strip
         }
       end.compact
